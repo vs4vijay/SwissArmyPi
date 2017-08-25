@@ -29,12 +29,17 @@
 
 
 ### Utilities
-- WiFi Cracker
+- WiFi Cracker (Patched Firmware Required, Please see below instructions)
   - `sudo apt-get install aircrack-ng`
   - `sudo airmon-ng start wlan0`
 
--FM Transmitter
+- FM Transmitter
 - Metasploit
+
+
+### Patch Broadcom Chipset Firmware
+Broadcom Chipsets(`BCM*`) 
+- 
 
 
 ### General Problems
