@@ -16,10 +16,10 @@
 ```
 
 ### Basic Installation
-- Download Linux Image
+- Download Linux Image, Options are:
   - Raspbian
   - RetroPie
-- Flash Image to SD Card using (Etcher)[https://etcher.io/]
+- Flash Image to SD Card using Etcher(https://etcher.io/)
 - Configure SSH and Ethernet Gadget mode so that we can SSH into Pi using microusb cable
 - Connect Pi with USB Cable via usb port(Pi Zero W has two microusb port: one for power, second for usb)
 - Once Pi boots up, Run following commands to Configure & Update the system and depedencies:
@@ -28,7 +28,9 @@
 
 
 ### Utilities
+- 
 
 
-### General Problem
+### General Problems
 - Set keyboard layout in file: `sudo nano /etc/default/keyboard`
+
