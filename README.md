@@ -4,6 +4,7 @@
 - Raspberry Pi (I am using Raspberry Pi Zero W)
 - SD Card (I am using 16 GB)
 - MicroUSB Cable
+- WiFi Card (The inbuilt Wireless card doesn't support monitor mode, We need external wifi card. e.g. TP-LINK WN722N)
 
 ```
 .-------------------------.
@@ -23,12 +24,17 @@
 - Configure SSH and Ethernet Gadget mode so that we can SSH into Pi using microusb cable
 - Connect Pi with USB Cable via usb port(Pi Zero W has two microusb port: one for power, second for usb)
 - Once Pi boots up, Run following commands to Configure & Update the system and depedencies:
-  - sudo apt-get update
+  - `sudo apt-get update`
  
 
 
 ### Utilities
-- 
+- WiFi Cracker
+  - `sudo apt-get install aircrack-ng`
+  - `sudo airmon-ng start wlan0`
+
+-FM Transmitter
+- Metasploit
 
 
 ### General Problems
