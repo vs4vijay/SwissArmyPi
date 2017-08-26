@@ -37,16 +37,20 @@ o--o    o   o  | o-o o-o     o   oo   o o o o--O     o     o-O-o
   - `sudo apt-get update`
  
 
-
 ### Use-Cases & Utilities
 - WiFi Cracker (Patched Firmware Required, Please see below instructions)
   - `sudo apt-get install aircrack-ng`
   - `sudo airmon-ng start wlan0`
 - `reaver`
 - `wifite`
-- Fluxion - https://github.com/FluxionNetwork/fluxion.git
+- Fake AP - Wifi Phishing
+  - Wifiphisher - https://github.com/wifiphisher/wifiphisher
+    - **Need two wireless card**
+    - `sudo apt-get install -y python-setuptools hostapd`
+    - `sudo python setup.py install`
+    - `sudo wifiphisher`
+  - Fluxion - https://github.com/FluxionNetwork/fluxion.git
 - FM Transmitter
-- nmap - `sudo apt-get install nmap`
 - Metasploit - https://null-byte.wonderhowto.com/how-to/raspberry-pi-metasploit-0167798/
 - Pi As Mass Storage
 - Sniffing - `bettercap`
@@ -54,6 +58,7 @@ o--o    o   o  | o-o o-o     o   oo   o o o o--O     o     o-O-o
 - `poinsontap`
 - USB Rubber Ducky
 - War-driving
+- Password Cracker
 
 
 ### Patch Broadcom Chipset Firmware
@@ -65,6 +70,7 @@ o--o    o   o  | o-o o-o     o   oo   o o o o--O     o     o-O-o
 - cmatrix
 - python3-gpiozero
 - mosh
+- nmap - `sudo apt-get install nmap`
 
 
 ### General Problems
