@@ -1,5 +1,15 @@
 # SwissArmyPi
 
+```
+ o-o                           O                     o--o  o-O-o 
+|              o              / \                    |   |   |   
+ o-o  o   o   o  o-o o-o     o---oo-o o-O-o o  o     O--o    |   
+    |  \ / \ / |  \   \      |   ||   | | | |  |     |       |   
+o--o    o   o  | o-o o-o     o   oo   o o o o--O     o     o-O-o 
+                                               |                 
+                                            o--o                 
+ ```
+
 ### Hardware Required
 - Raspberry Pi (I am using Raspberry Pi Zero W)
 - SD Card (I am using 16 GB)
