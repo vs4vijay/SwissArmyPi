@@ -58,7 +58,7 @@ o--o    o   o  | o-o o-o     o   oo   o o o o--O     o     o-O-o
 - `poinsontap`
 - USB Rubber Ducky
 - War-driving
-- Password Cracker
+- BadUSB
 
 
 ### Patch Broadcom Chipset Firmware
