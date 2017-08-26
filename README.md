@@ -28,24 +28,40 @@
  
 
 
-### Utilities
+### Use-Cases & Utilities
 - WiFi Cracker (Patched Firmware Required, Please see below instructions)
   - `sudo apt-get install aircrack-ng`
   - `sudo airmon-ng start wlan0`
-- reaver
-- wifite
-- Fluxion https://github.com/FluxionNetwork/fluxion.git
+- `reaver`
+- `wifite`
+- Fluxion - https://github.com/FluxionNetwork/fluxion.git
 - FM Transmitter
-- Metasploit
+- nmap - `sudo apt-get install nmap`
+- Metasploit - https://null-byte.wonderhowto.com/how-to/raspberry-pi-metasploit-0167798/
 - Pi As Mass Storage
+- Sniffing - `bettercap`
+- WiFi Jammer/Deauther - `kickthemout`
+- `poinsontap`
+- USB Rubber Ducky
+- War-driving
 
 
 ### Patch Broadcom Chipset Firmware
-
-Broadcom Chipsets(`BCM*`) 
+- Broadcom Chipsets(`BCM*`) 
 - 
+
+
+### Extra Tools
+- cmatrix
+- python3-gpiozero
+- mosh
 
 
 ### General Problems
 - Set keyboard layout in file: `sudo nano /etc/default/keyboard`
 
+
+### Other projects like this
+- http://pwnpi.sourceforge.net/
+- https://github.com/pwnieexpress/raspberry_pwn
+- 
