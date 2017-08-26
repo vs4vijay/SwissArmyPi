@@ -32,12 +32,16 @@
 - WiFi Cracker (Patched Firmware Required, Please see below instructions)
   - `sudo apt-get install aircrack-ng`
   - `sudo airmon-ng start wlan0`
-
+- reaver
+- wifite
+- Fluxion https://github.com/FluxionNetwork/fluxion.git
 - FM Transmitter
 - Metasploit
+- Pi As Mass Storage
 
 
 ### Patch Broadcom Chipset Firmware
+
 Broadcom Chipsets(`BCM*`) 
 - 
 
