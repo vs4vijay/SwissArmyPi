@@ -54,6 +54,8 @@ o--o    o   o  | o-o o-o     o   oo   o o o o--O     o     o-O-o
 - Metasploit - https://null-byte.wonderhowto.com/how-to/raspberry-pi-metasploit-0167798/
 - Pi As Mass Storage
 - Sniffing - `bettercap`
+  - `sudo apt-get install build-essential ruby-dev libpcap-dev net-tools`
+  - `gem install bettercap`
 - WiFi Jammer/Deauther - `kickthemout`
 - `poinsontap`
 - USB Rubber Ducky
