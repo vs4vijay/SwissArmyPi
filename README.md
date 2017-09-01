@@ -11,8 +11,8 @@ o--o    o   o  | o-o o-o     o   oo   o o o o--O     o     o-O-o
  ```
 
 ### Hardware Required
-- Raspberry Pi (I am using Raspberry Pi Zero W)
-- SD Card (I am using 16 GB)
+- **Raspberry Pi** (I am using **Raspberry Pi Zero W**)
+- **SD Card** (I am using 16 GB)
 - MicroUSB Cable
 - WiFi Card (The inbuilt Wireless Card doesn't support monitor mode by default, We need external wifi card. e.g. TP-LINK WN722N OR We need to [patch kernel module & firmware](#to-patch-kernel-module-and-firmware) using [Nexmon](https://github.com/seemoo-lab/nexmon))
 
@@ -56,7 +56,9 @@ o--o    o   o  | o-o o-o     o   oo   o o o o--O     o     o-O-o
 - Sniffing - `bettercap`
   - `sudo apt-get install build-essential ruby-dev libpcap-dev net-tools`
   - `gem install bettercap`
-- WiFi Jammer/Deauther - `kickthemout`
+- WiFi Jammer/Deauther 
+  - `kickthemout`
+  - https://github.com/DanMcInerney/LANs.py
 - `poinsontap`
 - USB Rubber Ducky
 - War-driving
@@ -90,3 +92,4 @@ o--o    o   o  | o-o o-o     o   oo   o o o o--O     o     o-O-o
 ### Cool projects using Raspberry Pi
 - MagicMirror - https://magicmirror.builders/
 - RetroPie
+- RaspberryCast - Use Raspberry Pi as Chromecast - https://github.com/vincelwt/RaspberryCast
