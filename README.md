@@ -14,7 +14,7 @@ o--o    o   o  | o-o o-o     o   oo   o o o o--O     o     o-O-o
 - Raspberry Pi (I am using Raspberry Pi Zero W)
 - SD Card (I am using 16 GB)
 - MicroUSB Cable
-- WiFi Card (The inbuilt Wireless card doesn't support monitor mode, We need external wifi card. e.g. TP-LINK WN722N)
+- WiFi Card (The inbuilt Wireless card doesn't support monitor mode by default, We need external wifi card. e.g. TP-LINK WN722N OR We need to patch kernel module & firmware using (Nexmon)[https://github.com/seemoo-lab/nexmon])
 
 ```
 .-------------------------.
@@ -63,9 +63,10 @@ o--o    o   o  | o-o o-o     o   oo   o o o o--O     o     o-O-o
 - BadUSB
 
 
-### Patch Broadcom Chipset Firmware
-- Broadcom Chipsets(`BCM*`) 
-- 
+### To Patch Kernel Module & Firmware
+- The Broadcom Chipsets(`BCM*`) that comes in Raspberry Pi doesn't support Monitor Mode, We need to install a patched kernel or use External WiFi Card. The instructions to patch kernel module can be found on Nexmon Repo.
+- Nexmon - https://github.com/seemoo-lab/nexmon
+- I have already put compiled kernel patch (\*.ko) and firmware for Kernel 4.4.55 here: 
 
 
 ### Extra Tools
@@ -76,10 +77,16 @@ o--o    o   o  | o-o o-o     o   oo   o o o o--O     o     o-O-o
 
 
 ### General Problems
-- Set keyboard layout in file: `sudo nano /etc/default/keyboard`
+- If keyboard layout is "GB", Set keyboard layout from file: `sudo nano /etc/default/keyboard`
+- If nothing works, Just restart the Pi using `sudo shutdown -r now`
 
 
 ### Other projects like this
 - http://pwnpi.sourceforge.net/
 - https://github.com/pwnieexpress/raspberry_pwn
-- 
+- MaMe82's P4WNPI
+
+
+### Cool projects using Raspberry Pi
+- MagicMirror - https://magicmirror.builders/
+- RetroPie
