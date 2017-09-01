@@ -14,7 +14,7 @@ o--o    o   o  | o-o o-o     o   oo   o o o o--O     o     o-O-o
 - Raspberry Pi (I am using Raspberry Pi Zero W)
 - SD Card (I am using 16 GB)
 - MicroUSB Cable
-- WiFi Card (The inbuilt Wireless card doesn't support monitor mode by default, We need external wifi card. e.g. TP-LINK WN722N OR We need to patch kernel module & firmware using (Nexmon)[https://github.com/seemoo-lab/nexmon])
+- WiFi Card (The inbuilt Wireless card doesn't support monitor mode by default, We need external wifi card. e.g. TP-LINK WN722N OR We need to patch kernel module & firmware using [Nexmon](https://github.com/seemoo-lab/nexmon)
 
 ```
 .-------------------------.
@@ -30,7 +30,7 @@ o--o    o   o  | o-o o-o     o   oo   o o o o--O     o     o-O-o
 - Download Linux Image, Options are:
   - Raspbian
   - RetroPie
-- Flash Image to SD Card using Etcher(https://etcher.io/)
+- Flash Image to SD Card using [Etcher](https://etcher.io/)
 - Configure SSH and Ethernet Gadget mode so that we can SSH into Pi using microusb cable
 - Connect Pi with USB Cable via usb port(Pi Zero W has two microusb port: one for power, second for usb)
 - Once Pi boots up, Run following commands to Configure & Update the system and depedencies:
@@ -66,7 +66,7 @@ o--o    o   o  | o-o o-o     o   oo   o o o o--O     o     o-O-o
 ### To Patch Kernel Module & Firmware
 - The Broadcom Chipsets(`BCM*`) that comes in Raspberry Pi doesn't support Monitor Mode, We need to install a patched kernel or use External WiFi Card. The instructions to patch kernel module can be found on Nexmon Repo.
 - Nexmon - https://github.com/seemoo-lab/nexmon
-- I have already put compiled kernel patch (\*.ko) and firmware for Kernel 4.4.55 here: 
+- I have already put compiled kernel patch (\*.ko) and firmware for Kernel 4.9.41 here: https://github.com/vs4vijay/SwissArmyPi/tree/master/4.9.41%2B
 
 
 ### Extra Tools
