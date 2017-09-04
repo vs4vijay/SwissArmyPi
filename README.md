@@ -86,7 +86,7 @@ o--o    o   o  | o-o o-o     o   oo   o o o o--O     o     o-O-o
 ### Other projects like this
 - http://pwnpi.sourceforge.net/
 - https://github.com/pwnieexpress/raspberry_pwn
-- MaMe82's P4WNPI
+- MaMe82's P4wnP1 - https://github.com/mame82/P4wnP1
 
 
 ### Cool projects using Raspberry Pi
