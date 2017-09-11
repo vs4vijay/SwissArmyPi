@@ -93,3 +93,4 @@ o--o    o   o  | o-o o-o     o   oo   o o o o--O     o     o-O-o
 - MagicMirror - https://magicmirror.builders/
 - RetroPie
 - RaspberryCast - Use Raspberry Pi as Chromecast - https://github.com/vincelwt/RaspberryCast
+- ZeroPhone - https://hackaday.io/project/19035-zerophone-a-raspberry-pi-smartphone
