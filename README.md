@@ -50,7 +50,7 @@ o--o    o   o  | o-o o-o     o   oo   o o o o--O     o     o-O-o
     - `sudo python setup.py install`
     - `sudo wifiphisher`
   - Fluxion - https://github.com/FluxionNetwork/fluxion.git
-- FM Transmitter
+- FM Transmitter - https://github.com/ChristopheJacquet/PiFmRds
 - Metasploit - https://null-byte.wonderhowto.com/how-to/raspberry-pi-metasploit-0167798/
 - Pi As Mass Storage
 - Sniffing - `bettercap`
@@ -86,7 +86,8 @@ o--o    o   o  | o-o o-o     o   oo   o o o o--O     o     o-O-o
 ### Other projects like this
 - http://pwnpi.sourceforge.net/
 - https://github.com/pwnieexpress/raspberry_pwn
-- MaMe82's P4wnP1 - https://github.com/mame82/P4wnP1
+- P4wnP1 - https://github.com/mame82/P4wnP1
+- P4wnP1 ALOA - https://github.com/mame82/P4wnP1_aloa
 
 
 ### Cool projects using Raspberry Pi
